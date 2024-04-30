@@ -8,5 +8,5 @@ from random import uniform
 async def async_generator():
     """function that generate 10 different yields"""
     for i in range(10):
-        await sleep(0.5)
+        await sleep(1)
         yield uniform(0, 10)
