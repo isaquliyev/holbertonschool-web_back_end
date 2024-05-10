@@ -4,4 +4,4 @@
 
 def insert_school(mongo_collection, **kwargs):
     """Function that inserts document to NoSQL"""
-    return mongo_collection.insert_one({**kwargs})
+    return mongo_collection.insert({**kwargs})
